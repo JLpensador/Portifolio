@@ -1,0 +1,9 @@
+img {
+  width: 65px;
+  filter: invert(1);
+  transition: 0.3s ease-in-out;
+}
+
+img:hover {
+  transform: scale(1.2);
+}
