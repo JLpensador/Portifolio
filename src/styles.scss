@@ -1,1 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 1), transparent), url('assets/fundo.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+
+}
