@@ -1,9 +1,13 @@
 img {
-  width: 65px;
+  width: 60px;
   filter: invert(1);
   transition: 0.3s ease-in-out;
 }
 
 img:hover {
   transform: scale(1.2);
+}
+
+.nav-link {
+  font-size: larger;
 }
