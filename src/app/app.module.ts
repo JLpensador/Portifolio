@@ -1,5 +1,8 @@
 import { NgModule } from '@angular/core';
-import { BrowserModule, provideClientHydration } from '@angular/platform-browser';
+import {
+  BrowserModule,
+  provideClientHydration,
+} from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -8,6 +11,8 @@ import { CardPrimaryComponent } from './components/card-primary/card-primary.com
 import { SobreComponent } from './pages/sobre/sobre.component';
 import { HomeComponent } from './pages/home/home.component';
 import { CardSobreComponent } from './components/card-sobre/card-sobre.component';
+import { ProjetoComponent } from './pages/projeto/projeto.component';
+import { CardProjetosComponent } from './components/card-projetos/card-projetos.component';
 
 @NgModule({
   declarations: [
@@ -16,15 +21,12 @@ import { CardSobreComponent } from './components/card-sobre/card-sobre.component
     CardPrimaryComponent,
     SobreComponent,
     HomeComponent,
-    CardSobreComponent
+    CardSobreComponent,
+    ProjetoComponent,
+    CardProjetosComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
-  providers: [
-    provideClientHydration()
-  ],
-  bootstrap: [AppComponent]
+  imports: [BrowserModule, AppRoutingModule],
+  providers: [provideClientHydration()],
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
