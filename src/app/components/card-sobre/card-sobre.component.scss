@@ -11,6 +11,12 @@
   }
 }
 
+@media (max-height: 850px) {
+  :host {
+    top: 200px !important;
+  }
+}
+
 #sub {
   margin-bottom: 3% !important;
 }
@@ -24,7 +30,18 @@
   }
 
   .texto {
-    width: 140% !important;
+    width: 160% !important;
+    font-size: 20px !important;
+  }
+
+  #titulo {
+
+    font-size: 30px !important;
+  }
+
+  #sub {
+    font-size: 20px !important;
+
   }
 }
 
