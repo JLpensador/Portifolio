@@ -1,0 +1,32 @@
+:host {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 1), transparent), url('../../../../public/resumo-bg.png');
+  display: block;
+  background-size: cover;
+  background-position: center;
+}
+
+#titulo {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  text-decoration: underline;
+  text-decoration-color: #4D818C;
+}
+
+.softSkills {
+  margin: 15px;
+  font-size: 20px;
+  color: white;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+i {
+  font-size: 30px;
+}
