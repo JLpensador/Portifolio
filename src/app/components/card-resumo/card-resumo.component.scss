@@ -5,6 +5,12 @@
   background-position: center;
 }
 
+.row {
+  padding: 25px;
+  font-size: 20px;
+  color: white;
+}
+
 #titulo {
   color: white;
   font-family: "Roboto", sans-serif;
@@ -15,16 +21,8 @@
   text-decoration-color: #4D818C;
 }
 
-.softSkills {
-  margin: 15px;
-  font-size: 20px;
-  color: white;
-}
-
-.skills {
-  display: flex;
-  flex-direction: column;
-  gap: 5px;
+.progress {
+  width: 60%;
 }
 
 i {
