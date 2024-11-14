@@ -1,6 +1,15 @@
+@media (max-width: 1080px) {
+  :host {
+    height: auto !important;
+    width: auto !important;
+  }
+}
+
 :host {
   background-image: linear-gradient(to right, rgba(0, 0, 0, 1), transparent), url('../../../../public/resumo-bg.png');
   display: block;
   background-size: cover;
   background-position: center;
+  height: 100vh;
+  width: 100vw;
 }
