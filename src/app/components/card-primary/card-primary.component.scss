@@ -13,6 +13,14 @@
   }
 }
 
+@media (max-height: 850px) {
+  :host {
+    top: auto !important;
+    left: auto !important;
+    margin: 25px !important;
+  }
+}
+
 :host {
   position: absolute;
   top: 400px;
