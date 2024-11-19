@@ -6,24 +6,25 @@
   }
 }
 
-@media (max-height: 850px) {
-  :host {
-    top: 300px !important;
-
-  }
-}
-
-@media (max-height: 850px) {
+@media (max-height: 500px) {
   :host {
     top: auto !important;
     left: auto !important;
-    margin: 25px !important;
+    margin: 250px !important;
+  }
+}
+
+@media (max-width: 400px) {
+  :host {
+    top: auto !important;
+    left: auto !important;
+    margin-top: 30px !important;
   }
 }
 
 :host {
   position: absolute;
-  top: 400px;
+  top: 350px;
   left: 200px;
   z-index: 10;
 }
