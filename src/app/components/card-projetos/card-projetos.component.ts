@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
 import { ProjectService } from '../../project.service';
 @Component({
-  selector: 'app-card-projetos',
-  templateUrl: './card-projetos.component.html',
-  styleUrl: './card-projetos.component.scss',
+    selector: 'app-card-projetos',
+    templateUrl: './card-projetos.component.html',
+    styleUrl: './card-projetos.component.scss',
+    standalone: false
 })
 export class CardProjetosComponent {
   projects: any[] = [];
