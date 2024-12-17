@@ -1,31 +1,19 @@
+@media (max-width: 450px) {
+  :host {
+    margin-top: 100px !important;
+  }
+}
+
 @media (max-width: 850px) {
   :host {
-    position: absolute;
-    top: 350px !important;
-    left: 0px !important;
-  }
-}
-
-@media (max-height: 500px) {
-  :host {
-    top: auto !important;
-    left: auto !important;
-    margin: 250px !important;
-  }
-}
-
-@media (max-width: 400px) {
-  :host {
-    top: auto !important;
-    left: auto !important;
-    margin-top: 30px !important;
+    margin-left: auto !important;
   }
 }
 
 :host {
   position: absolute;
-  top: 350px;
-  left: 200px;
+  margin-top: 250px;
+  margin-left: 250px;
   z-index: 10;
 }
 
@@ -62,7 +50,6 @@
 
 #button {
   width: 100%;
-  padding: 1%;
   border: 2px solid #0D0D0D;
   border-radius: 5px;
   font-size: clamp(8px, 5vw, 1rem);

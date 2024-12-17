@@ -1,9 +1,10 @@
 :host {
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 1), transparent), url('../../../../public/home-bg.png');
-  background-color: #000;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 1), transparent), url('../../../../public/home-bg.jpg');
   display: block;
+  height: 100vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
   background-size: cover;
   background-position: center;
-  height: 100vh;
-  width: 100vw;
 }
