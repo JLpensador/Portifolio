@@ -1,6 +1,7 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { SobreComponent } from './sobre.component';
+import { SharedModule } from '../../shared/shared.module';
 
 describe('SobreComponent', () => {
   let component: SobreComponent;
@@ -8,9 +9,9 @@ describe('SobreComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [SobreComponent]
-    })
-    .compileComponents();
+      declarations: [SobreComponent],
+      imports: [SharedModule],
+    }).compileComponents();
 
     fixture = TestBed.createComponent(SobreComponent);
     component = fixture.componentInstance;

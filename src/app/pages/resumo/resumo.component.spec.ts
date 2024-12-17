@@ -1,6 +1,7 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { ResumoComponent } from './resumo.component';
+import { SharedModule } from '../../shared/shared.module';
 
 describe('ResumoComponent', () => {
   let component: ResumoComponent;
@@ -8,9 +9,9 @@ describe('ResumoComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ResumoComponent]
-    })
-    .compileComponents();
+      declarations: [ResumoComponent],
+      imports: [SharedModule],
+    }).compileComponents();
 
     fixture = TestBed.createComponent(ResumoComponent);
     component = fixture.componentInstance;
